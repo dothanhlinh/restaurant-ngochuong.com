@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+
+    <title>NgocHuong-Restaurant</title>
+</head>
+<body>
+  <div id="main">
+
+    <!-- Phần header -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark nav_header" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="img_logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MENU</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">MÓN ĂN</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">ĐẶT BÀN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TIN TỨC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LIÊN HỆ</a>
+            </li>  
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      </div>
+  
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner1.jpg" alt="Contact" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner2.jpg" alt="Contact" class="d-block w-100">
+        </div>
+      </div>
+  
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  
+    <!-- Nội dung của trang -->
+    <div class="container container_img">
+      <h3 class="text-center title_container_dacsan" data-aos="fade-right"data-aos-offset="300">MÓN HẢI SẢN ĐẶC SẮC</h3>
+      <div class="row row_img">
+        <img class="col-lg-4 " data-aos="fade-right"data-aos-offset="200" src="images/dacsan1.jpg" alt="">
+        <img class="col-lg-4"src="images/dacsan2.jpg" alt="">
+        <img class="col-lg-4" data-aos="fade-left" data-aos-offset="200"src="images/dacsan3.jpg" alt="">
+      </div>
+      <div class="row row_img">
+        <img class="col-lg-6" data-aos="fade-right" data-aos-offset="200"src="images/dacsan4.jpg" alt="">
+        <img class="col-lg-6" data-aos="fade-left" data-aos-offset="200"src="images/dacsan5.jpg" alt="">
+      </div>
+      <div class="row row_introduct_dish">
+        <div class="col-lg-3 col-md-6  row_introduct_dish_items " data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"data-aos-offset="500">
+          <img class="rounded-circle img-thumbnail" src="images/_dacsan6.jpg" alt="">
+          <h4 class="title box-title text-center">
+            <span>Soup tôm thái</span>
+          </h4>
+          <p class="description text-center">
+            Vị ngọt của tôm, vị cay của ớt tạo nên hương vị đặc trưng của Soup tôm thái - món khai vị không thể bỏ qua
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 row_introduct_dish_items"data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"data-aos-offset="500">
+          <img class="rounded-circle img-thumbnail" src="images/_dacsan7.jpg" alt="">
+          <h4 class="title box-title text-center">
+            <span>LẨU HẢI SẢN THẬP CẨM</span>
+          </h4>
+          <p class="description text-center">
+            Tinh hoa ẩm thực biển Đà Nẵng được kết tinh trong nồi lẩu hải sản thập cẩm đầy ú ụ        </p>
+        </div>
+        <div class="col-lg-3 col-md-6 row_introduct_dish_items"data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"data-aos-offset="500">
+          <img class="rounded-circle img-thumbnail" src="images/_dacsan8.jpg" alt="">
+          <h4 class="title box-title text-center">
+            <span>SALAD RONG NHO CÁ NGỪ</span>
+          </h4>
+          <p class="description text-center">
+            Cơ thể thanh lọc hơn bởi sự kết hợp đỉnh cao đến từ rong nho thanh mát và cá ngừ đại dương        </p>
+        </div>
+        <div class="col-lg-3 col-md-6 row_introduct_dish_items"data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"data-aos-offset="500">
+          <img class="rounded-circle img-thumbnail" src="images/_dacsan9.jpg" alt="">
+          <h4 class="title box-title text-center">
+            <span>RƯỢU VANG CHILE 1865</span>
+          </h4>
+          <p class="description text-center">
+            Được làm từ 100% nho Cabernet Sauvignon nên có màu đỏ đặc trưng, phù hợp dùng với hải sản.        </p>
+        </div>
+      </div>
+      <button type="" class="btn_view_menu d-block">Xem menu</button>
+    </div>
+    <!-- phần feedback -->
+    <div class="feedback">
+      <h2 class="box-title wow fadeInUp  text-center animated" style="visibility: visible; animation-name: fadeInUp;">
+        <span data-aos="fade-up" data-aos-duration="1000"></span> Khách hàng nói gì về chúng tôi</span></h2>
+      <div class="row container container_feedback " data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-lg-3 img_feedback">
+          <img src="images/customer1.jpg" class="rounded-circle" alt="">
+        </div>
+        <div class="col-lg-9">
+          <div class="info">
+            <h4 class="name">
+              Võ Thị Xuân Anh
+            </h4>	
+            <div class="description">
+              Lần đầu đến Đà Nẵng, mỗi bữa mình có thử đến một địa chỉ nhà hàng hải sản nổi tiếng trên mạng nhưng chưa có nhà hàng nào thật sự ngon cả. Bữa tối cuối cùng ở Đà Nẵng mình được người dân bản địa chỉ đến nhà hàng Ngọc Hương, mình thấy tiếc vì đã không biết đến nhà hàng hải sản này sớm hơn. Hải sản tươi còn bơi trong bể, chế biến vừa miệng, mình ưng nhất Cua hoàng đế, quá tuyệt. Lần sau đến Đà Nẵng mình sẽ chỉ đến đây ăn thôi. Rất đáng tiền.
+              <div class="vote">
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                </div>
+            </div>
+            <div class="img-addition">
+              <img src="images/imgfeedbackcustomer1.jpg" alt="Võ Thị Xuân Anh ">&nbsp;
+              <img src="images/imgfeedbackcustomer1.1.jpg" alt="Võ Thị Xuân Anh ">
+            </div>
+        </div>
+      </div>
+      <hr color="#000000" width="80%">
+      </div>
+  
+      <div class="row container container_feedback"data-aos="fade-up" data-aos-duration="1200">
+        <div class="col-lg-9">
+          <div class="info">
+            <h4 class="name">
+              Anthea Koh-gan
+            </h4>	
+            <div class="description">
+              Food was delicious, ambience nice, service was good very attentive.
+              <div class="vote">
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                  <i class="fa fa-star color"></i>
+                </div>
+            </div>
+            <div class="img-addition">
+              <img src="images/imgfeedbackcustomer2.1.jpg" alt="Anthea Koh-gan ">&nbsp;
+              <img src="images/imgfeedbackcustomer2.1.jpg" alt="Anthea Koh-gan ">
+            </div>
+        </div>
+      </div>
+        <div class="col-lg-3 img_feedback">
+          <img src="images/customer2.jpg" class="rounded-circle" alt="">
+        </div>
+      <hr color="#000000" width="80%">
+    </div>
+    <div class="row container container_feedback"data-aos="fade-up" data-aos-duration="1200">
+      <div class="col-lg-3 img_feedback">
+        <img src="images/customer3.jpg" class="rounded-circle" alt="">
+      </div>
+      <div class="col-lg-9">
+        <div class="info">
+          <h4 class="name">
+            Aroi Zap
+          </h4>	
+          <div class="description">
+            Food is very delicious!! we love it!!
+              <div class="vote">
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+              </div>
+          </div>
+          <div class="img-addition">
+            <img src="images/imgfeedbackcustomer3.jpg" alt="Aroi Zap ">&nbsp;
+            <img src="images/imgfeedbackcustomer3.1.jpg" alt="Aroi Zap ">
+          </div>
+      </div>
+    </div>
+    <hr color="#000000" width="80%">
+    </div>
+    <div class="row container container_feedback"data-aos="fade-up" data-aos-duration="1200">
+      <div class="col-lg-9">
+        <div class="info">
+          <h4 class="name">
+            Ngọc Bội
+          </h4>	
+          <div class="description">
+            Không gian nhà hàng thật tuyệt! Rất rộng và lại được ngắm biển! Sướng nữa là luôn có bạn nhân viên đứng cạnh hỗ trợ bóc tôm hay bóp càng ghẹ. Đi ăn Hải Sản mà ngại cái khoản kì cạch bóp đập xé, loay hoay mãi ko ăn đc cái càng cua thì nhớ đến Ngọc Hương        <div class="vote">
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+                <i class="fa fa-star color"></i>
+              </div>
+          </div>
+          <div class="img-addition">
+            <img src="images/imgfeedbackcustomer4.jpg" alt="Ngọc Bội">&nbsp;
+            <img src="images/imgfeedbackcustomer4.1.jpg" alt="Ngọc Bội ">
+          </div>
+      </div>
+    </div>
+      <div class="col-lg-3 img_feedback">
+        <img src="images/customer4.jpg" class="rounded-circle" alt="">
+      </div>
+    <hr color="#000000" width="80%">
+    </div>
+    </div>
+    <div class="img_banner_address"data-aos="fade-up" data-aos-duration="1000">
+      <img src="images/img-banner-address.jpg" alt="">
+    </div>
+  <!-- Phần video -->
+    <div class="container">
+      <h2 class="text-center box-title">Video</h2>
+      <div class="items "data-aos="fade-up" data-aos-duration="1000">
+        <div class="embed-responsive embed-responsive-16by9 video_slick">
+  
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/b85af8iF5hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6z87Y7UoMHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rwbozo0rai8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6XqHNDOGaps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/BJlf1p6YRkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="row row_about">
+        <h3 class="box-title"> VỀ CHÚNG TÔI</h3>
+        <div class="col-lg-6 col-md-12 row_left_about"data-aos="fade-right">
+          <div class="description-detail">
+            <p style="text-align: justify;"><em><strong>Ngoc Huong Seafood Restaurant –&nbsp;nhà hàng hải sản bậc nhất Đà Nẵng</strong></em> là địa chỉ quen thuộc không chỉ đối với khách du lịch nội địa mà còn là nơi dừng chân uy tín của khách du lịch quốc tế. <em><strong>Vị trí đắc địa, không gian rộng lớn</strong></em> được thiết kế độc đáo mang đậm chất mảnh đất miền Trung nắng gió.<em><strong> Nguồn nguyên liệu đảm bảo sạch 100% </strong></em>từ những chuyến tàu đêm hàng ngày ngoài khơi xa. Đặc biệt sự chọn lựa cực kỳ kỹ lưỡng trước khi đưa về bể, mang tới các loại hải sản thực sự chất lượng để cung cấp cho thực khách. Sự quy tụ của những đầu bếp hàng đầu Việt Nam tại nhà hàng tạo nên đẳng cấp của những món ăn. Thêm vào đó,
+               <em><strong>menu đa dạng với gần 200 món ngon</strong></em> cho khách hàng thoải mái khám phá ẩm thực Đà thành.</p>
+            <p style="text-align: justify;">Không chỉ chinh phục khách hàng bằng món ăn đặc&nbsp;trưng chỉ có tại Ngoc Huong Seafood Restaurant, chúng tôi còn khắc ghi những dấu ấn khác biệt từ <em><strong>cung cách phục vụ chuyên nghiệp chuẩn quốc tế</strong></em>&nbsp;của đội ngũ nhân viên. Ngoài ra, chúng tôi còn mang đến những <em><strong>ưu đãi hấp dẫn</strong></em>, thiết thực&nbsp;dành tặng những “tín đồ” yêu ẩm thực nơi đây. Ghé đến Ngoc Huong Seafood Restaurant, du khách có thể vừa thưởng thức hải sản, vừa có thể ngắm nhìn khung cảnh thân thương, nên thơ mà hữu tình bởi view biển Mỹ Khê mở ra trước mắt cùng tiếng sóng vỗ vào bờ, cảm nhận hơi thở mặn mòi của biển sẽ khiến bất kỳ ai cũng không thể quên được những giây phút đầy thi vị.</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 row_right_about"data-aos="fade-left">
+          <img src="images/img_about.png" alt="">
+        </div>
+      </div>
+    </div>
+  
+    <!-- Tin nổi bật -->
+    <div class="items_news "data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center box-title">TIN NỔI BẬT</h2>
+      <div class="items_news_about">
+        <div class="embed-responsive embed-responsive-16by9 video_slick news_about_items">
+          <a href=""><img src="images/about_1.jpg" alt=""></a>
+          
+  
+          <div class="title_about">
+            NHỮNG MÓN HẢI SẢN ĐÀ NẴNG NGON “QUẮT TAI” KHÁCH DU LỊCH KHÔNG THỂ BỎ QUA
+          </div>
+          <div class="Describe_about">
+            Soup hải sản 
+            Để kích thích vị giác, khởi đầu cho một bữa ăn ngon thì chắc chắn một bát soup..
+          </div>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick news_about_items">
+          <a href=""><img src="images/about_2.jpg" alt=""></a>
+          
+  
+          <div class="title_about">
+            MỰC 1 NẮNG ĐẶC SẢN ĐÀ NẴNG KHÔNG THỂ BỎ LỠ
+          </div>
+          <div class="Describe_about">
+            Theo chân Ngọc Hương Seafood Restaurant khám phá điều gì tạo nên sự đặc biệt của món Mực một nắng kh..
+          </div>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick news_about_items">
+          <a href=""><img src="images/about_3.jpg" alt=""></a>
+          
+  
+          <div class="title_about">
+            Hải Sản Đà Nẵng lọt top 40 món ăn ngon nhất tại Miền Trung
+          </div>
+          <div class="Describe_about">
+            Nếu đã trót đam mê xê dịch, yêu thích du lịch thì Đà Nẵng sẽ là một trong những thành phố bạn không ..
+          </div>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick news_about_items">
+          <a href=""><img src="images/about_4.jpg" alt=""></a>
+          
+  
+          <div class="title_about">
+            LÝ DO TẠI SAO CÁ MẶT QUỶ LỌT TOP HẢI SẢN ĐÀ NẴNG NGON NHẤT TẠI NGỌC HƯƠNG SEAFOOD
+          </div>
+          <div class="Describe_about">
+            1. Giới thiệu về Cá mặt quỷ
+  
+            Cá mặt quỷ (Stonefish) còn có nhiều tên gọi khác như cá đá, cá mang ế..
+          </div>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 video_slick news_about_items">
+          <a href=""><img src="images/about_5.jpg" alt=""></a>
+          
+  
+          <div class="title_about">
+            SIÊU LỄ HỘI TẬN HƯỞNG MÙA HÈ ĐÀ NẴNG 2022 CHÍNH THỨC ĐỔ BỘ NGÀY 11/6/2022
+          </div>
+          <div class="Describe_about">
+            Đã bao lâu rồi bạn chưa đi du lịch, chưa được khám phá đó đây thì mùa hè này cùng Ngọc Hương Seafood..
+          </div>
+        </div>
+          
+      </div>
+      <!-- Map -->
+      <div class="address_about">
+        <iframe data-aos="fade-up" data-aos-duration="1000" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8430861162965!2d108.24286462407004!3d16.0736304300925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142179aa384ffed%3A0x734fc153e933e760!2zTmjDoCBow6BuZyBI4bqjaSBz4bqjbiBOZ-G7jWMgSMawxqFuZw!5e0!3m2!1svi!2s!4v1661442313413!5m2!1svi!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  
+    </div>
+  
+    <!-- Footer -->
+    <div class="footer">
+      <div class="logo_footer text-center">
+        <img src="images/logo-footer.png"data-aos="fade-up" data-aos-duration="1000" alt="">
+        <h2 class="title"data-aos="fade-up" data-aos-duration="1000">Ngọc Hương Seafood Restaurant</h2>
+        <h5 class="title"data-aos="fade-up" data-aos-duration="1000">ĐẾN NGỌC HƯƠNG VẤN VƯƠNG KHÔNG VỀ</h5>
+      </div>
+      <div class="icons_footer text-center">
+        <i class="fab fa-facebook-f rounded-circle"data-aos="fade-up" data-aos-duration="1000"></i>
+        <i class="fab fa-youtube rounded-circle"data-aos="fade-up" data-aos-duration="1000"></i>
+      </div>
+      <div class="address_footer">
+        <ul class="row text-center ">
+          <li class="col-lg-4 col-xs-12 col-md-12">EMAIL: info@ngochuong.vn</li>
+          <li class="col-lg-4 col-xs-12 col-md-12">HOTLINE: 0834.396.868</li>
+          <li class="col-lg-4 col-xs-12 col-md-12"> OPEN DAILY: 10.AM - 10.PM</li>
+        </ul>
+      </div>
+      <div class="address_footer_full">
+        <h6>Lô 8+9, Khu dân cư 3, đường Võ Nguyên Giáp, quận Sơn Trà, thành phố Đà Nẵng</h6>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  AOS.init();
+</script>
+<script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+<script src="js/main.js"></script>
+</html>
